@@ -15,6 +15,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.6",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
