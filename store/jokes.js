@@ -34,7 +34,7 @@ export const mutations = {
 
 export const actions = {
   async getRandomJoke({ commit }) {
-    const response = await fetch('http://api.icndb.com/jokes/random')
+    const response = await fetch('https://api.icndb.com/jokes/random')
     const joke = await response.json()
     commit(GET_RANDOM_JOKE, joke.value)
   },
